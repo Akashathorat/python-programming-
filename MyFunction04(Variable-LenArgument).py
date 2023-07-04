@@ -14,8 +14,8 @@ def average(*numbers):
 
 c = average(5, 6, 7, 1)
 print(c)
-# def name(**name)
-# #  print(type(name))
-# print("hello,", name["fname"],  name["mname"],  name["lname"])
-
-# name(mname="akash", lname="aniket", fname="kunal")
+def name(**name):
+  print(type(name))
+  print("hello,", name["fname"], name["mname"], name["lname"])
+  
+name(mname="akash", lname="aniket", fname="kunal")
